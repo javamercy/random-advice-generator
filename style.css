@@ -58,7 +58,7 @@ body {
   bottom: -1.5rem;
 }
 
-.advice-container .icon:hover {
+.advice-container .icon:active {
   box-shadow: 0 0 10px 5px hsla(150, 100%, 66%, 0.8);
 }
 
