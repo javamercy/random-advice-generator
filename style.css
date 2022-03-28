@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  color: hsl(193, 38%, 86%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope", sans-serif;
+  min-height: 100vh;
+}
+
+.advice-container {
+  text-align: center;
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 1rem;
+  padding: 2rem 2rem;
+  padding-bottom: 0px;
+  width: 400px;
+}
+
+.advice-container .advice-header {
+  color: hsl(150, 100%, 66%);
+  font-size: 0.7rem;
+  letter-spacing: 0.2rem;
+  margin: 1rem auto;
+}
+
+.advice-container .advice-header span {
+  margin-left: 0.6rem;
+}
+
+.advice-container .advice-content {
+  font-family: inherit;
+  font-size: 20px;
+}
+
+.advice-container .divider {
+  margin-top: 1.5rem;
+}
+
+.advice-container .icon {
+  background-color: hsl(150, 100%, 66%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  bottom: -1.5rem;
+}
+
+.advice-container .icon:hover {
+  box-shadow: 0 0 10px 5px hsla(150, 100%, 66%, 0.8);
+}
+
+.footer {
+  color: #fff;
+  margin-top: 5rem;
+}
+
+.footer a {
+  padding-left: 0.3rem;
+  font-style: italic;
+  color: #42ac42;
+  font-size: 1rem;
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #309c74;
+}
