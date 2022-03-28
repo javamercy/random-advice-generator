@@ -42,6 +42,7 @@ body {
 
 .advice-container .divider {
   margin-top: 1.5rem;
+  
 }
 
 .advice-container .icon {
@@ -77,4 +78,15 @@ body {
 .footer a:hover {
   text-decoration: none;
   color: #309c74;
+}
+
+@media only screen and (max-width:423px) {
+
+  .advice-container{
+    width: 100%;
+  }
+
+  .advice-container .divider svg{
+    width: 35%;
+  }
 }
